@@ -1,7 +1,7 @@
 import React from "react";
 
 function ShowDetail(props) {
-  const { name, title, birthday } = props.details;
+  const { name, location, login } = props.details;
   return (
     <div className="center">
       <div className="loaded">Details loaded</div>
@@ -10,12 +10,12 @@ function ShowDetail(props) {
         {name}
       </div>
       <div>
-        <strong>Title: </strong>
-        {title}
+        <strong>Location: </strong>
+        {location}
       </div>
       <div>
-        <strong>Birthday: </strong>
-        {birthday}
+        <strong>Login: </strong>
+        {login}
       </div>
     </div>
   );
