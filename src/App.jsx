@@ -48,8 +48,8 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    this.wait(2000);
-    // this.getGitHubInfo();
+    // this.wait(2000);
+    this.getGitHubInfo();
   }
 
   render() {
